@@ -6,6 +6,10 @@ import Split from './components/split'
 import MainPage from './components/mainPage'
 import Scroll from './components/scroll'
 import Upload from './components/upload'
+import ManagePeople from './components/managePeople'
+import ContentManage from './components/contentManage'
+
+
 
 
 
@@ -46,7 +50,18 @@ const routers = [{
                 path: 'upload',
                 name: 'upload',
                 component: Upload,
+            },
+            {
+                path: 'managepeople',
+                name: 'managepeople',
+                component: ManagePeople,
+            },
+            {
+                path: 'contentmanage',
+                name: 'contentmanage',
+                component: ContentManage,
             }
+
         ]
     },
 

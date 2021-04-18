@@ -77,9 +77,9 @@
             <Icon type="ios-paper" />
             內容管理
         </MenuItem>
-        <MenuItem name="3">
+        <MenuItem name="3" to="/home/managepeople">
             <Icon type="ios-people" />
-            用戶管理
+            人員管理
         </MenuItem>
         <Submenu name="4">
             <template slot="title">

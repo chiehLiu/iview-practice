@@ -3,7 +3,7 @@
         color:#2c3e50;
     }
     body{
-        overflow: hidden;
+        // overflow: hidden;
     }
 </style>
 <template>
