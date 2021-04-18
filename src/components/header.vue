@@ -73,22 +73,23 @@
             </div>
         </Drawer>
         </MenuItem>
-        <MenuItem name="2">
-            <Icon type="ios-paper" />
+        <MenuItem name="2" to="/home/contentmanage">
+            <Icon type="ios-paper"  />
             內容管理
         </MenuItem>
+
         <MenuItem name="3" to="/home/managepeople">
             <Icon type="ios-people" />
             人員管理
         </MenuItem>
+
         <Submenu name="4">
             <template slot="title">
                 <Icon type="ios-stats" />
                 admin
             </template>
-                <MenuItem name="4-1">新增和啟動</MenuItem>
-                <MenuItem name="4-2">活動分析</MenuItem>
-                <MenuItem name="4-3"><Button type="text"v-on:click="logout()"> 退出</Button></MenuItem>
+                
+                <MenuItem name="4-1"><Button type="text"v-on:click="logout()"> 退出</Button></MenuItem>
         </Submenu>
     </Menu>
     </header>

@@ -6,13 +6,28 @@
             <BreadcrumbItem>Components</BreadcrumbItem>
             <BreadcrumbItem>Scroll</BreadcrumbItem>
         </Breadcrumb>
+
         <h1 align="center" style="margin:20px;">當scroll拉到底時觸發下十個項目，必須使用滑鼠上面的滾輪</h1>
-        <Scroll :on-reach-bottom="handleReachBottom" class="container" style="height:600px">
+        <Scroll :on-reach-bottom="handleReachBottom" class="container" style="height:500px">
             <Card dis-hover v-for="(item, index) in list1" :key="index" style="margin: 32px 0; width:1500px;">
                 Content {{ item }}
             </Card>
         </Scroll>
-
+        <Scroll :on-reach-bottom="handleReachEdge" class="container" style="height:500px">
+        <Card dis-hover v-for="(item, index) in list1" :key="index" style="margin: 32px 0; width:1500px;">
+            Content {{ item }}
+        </Card>
+        </Scroll>
+        <Scroll :on-reach-bottom="handleReachEdge" class="container" style="height:500px">
+        <Card dis-hover v-for="(item, index) in list1" :key="index" style="margin: 32px 0; width:1500px;">
+            Content {{ item }}
+        </Card>
+        </Scroll>
+        <Scroll :on-reach-bottom="handleReachEdge" class="container" style="height:500px">
+        <Card dis-hover v-for="(item, index) in list1" :key="index" style="margin: 32px 0; width:1500px;">
+            Content {{ item }}
+        </Card>
+        </Scroll>
     </div>
 </template>
 <script>
@@ -38,6 +53,6 @@
     }
 </script>
 
-<style>
-
+<style scoped>
+    
 </style>

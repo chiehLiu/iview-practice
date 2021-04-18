@@ -1,6 +1,6 @@
 <template>
     <div>   
-        <Breadcrumb style="margin:10px;">
+        <Breadcrumb style="margin:30px;">
             <BreadcrumbItem to="/home/MainPage">Home</BreadcrumbItem>
             <BreadcrumbItem>Components</BreadcrumbItem>
 

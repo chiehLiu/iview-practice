@@ -21,23 +21,21 @@
             <div class="demo-carousel"><img src="https://www.imgworlds.com/wp-content/uploads/2015/12/18-CONTACTUS-HEADER.jpg"></div>
         </CarouselItem>
     </Carousel>
-    
+        
     </div>
 </template>
 <script>
 export default {
         data () {
             return {
-                value1: 0,
-                percent: 0
+                value1: 1,
+                percent: 1
             }
         }
     }
 </script>
 <style scoped>
-.circle{
-    display:flex;
-    align-items:center;
-    justify-content:center;
+Carousel{
+    text-align: center;
 }
 </style>

@@ -5,6 +5,9 @@
     body{
         // overflow: hidden;
     }
+    #home app-sidebar{
+        height:100vh;
+    }
 </style>
 <template>
     

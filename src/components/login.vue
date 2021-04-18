@@ -13,6 +13,7 @@
                             <Card class="Card">
                                 <br>
                                 <h1 style="text-align: center;font-size:32px;">Login Page</h1>
+                                <h5 style="text-align: center;">名稱密碼可以任意輸入進入homepage</h5>
                                 <br>
                                 <div style="background-color:#dddddd;height:2px;"></div>
                                 <br>

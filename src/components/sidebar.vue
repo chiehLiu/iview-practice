@@ -1,6 +1,6 @@
 <template>
     <div>
-        <Menu :theme="theme2" style="max-width:180px;height:100%;">
+        <Menu :theme="theme2" style="max-width:180px;height:2000px;">
             <Submenu name="1">
                 <template slot="title">
                     <Icon type="ios-paper" />
@@ -18,7 +18,7 @@
                     Update
                 </template>
                 <MenuItem name="2-1" to="/home/upload">Upload Img</MenuItem>
-                <MenuItem name="2-2">活跃用户</MenuItem>
+                
             </Submenu>
             
         </Menu>
